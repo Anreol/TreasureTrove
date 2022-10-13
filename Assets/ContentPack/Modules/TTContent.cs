@@ -16,7 +16,6 @@ namespace TreasureTrove
 {
     public class TTContent : IContentPackProvider
     {
-        private static bool alreadyLoadedBaseGame = false;
 
         public delegate IEnumerator LoadStaticContentAsyncDelegate(LoadStaticContentAsyncArgs args);
 

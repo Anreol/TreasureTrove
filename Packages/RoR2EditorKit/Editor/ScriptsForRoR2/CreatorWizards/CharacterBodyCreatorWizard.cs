@@ -24,7 +24,7 @@ namespace RoR2EditorKit.RoR2Related.EditorWindows
 @"The CharacterBodyCreatorWizard is a custom wizard that creates the following upon completion:
 1.- A Prefab of a CharacterBody with filled tokens, necesary components, a minimum of 3 EntityStatemachines and a minimum of 4 Generic Skills, alongside the instantiated model.
 (Note: The prefab itself is based off a stripped down version of the Commando's body prefab)";
-        protected override bool RequiresTokenPrefix => true;
+        protected override bool RequiresTokenPrefix => false;
 
         private GameObject copiedBody;
 

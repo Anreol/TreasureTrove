@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 1
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: c67f5a6a33715114e8be7947dfe3c3e5, type: 2}
+  creationDate:
+    ticks: 638012737646128234
+  entries:
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737859585452
+    message: '[ModBuildAnreol](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fAnreol%2fModBuildAnreol.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737859206464
+    message: '[ModBuildAnreol(1 - Copy)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fAnreol%2fModBuildAnreol.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      ``` <BuildPath> ``` to ``` <FDriveGang> ```
+
+      
+
+      
+
+      Copied
+      ``` C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins
+      ``` to ``` F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove
+      ```'
+    context:
+    - "Copied Files\r\n\r\n 1. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\TreasureTrove.dll\r\n\r\n
+      2. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\TreasureTrove.dll.mdb\r\n\r\n
+      3. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\assetbundles\\Anreol-TreasureTrove.manifest\r\n\r\n
+      4. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\assetbundles\\assettrove\r\n\r\n
+      5. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\assetbundles\\assettrove.manifest\r\n\r\n
+      6. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Achievements.txt\r\n\r\n
+      7. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Achievements.txt.meta\r\n\r\n
+      8. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Artifacts.txt\r\n\r\n
+      9. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Artifacts.txt.meta\r\n\r\n
+      10. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\CharacterBodies.txt\r\n\r\n
+      11. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\CharacterBodies.txt.meta\r\n\r\n
+      12. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Equipment.txt\r\n\r\n
+      13. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Equipment.txt.meta\r\n\r\n
+      14. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Interactors.txt\r\n\r\n
+      15. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Interactors.txt.meta\r\n\r\n
+      16. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Items.txt\r\n\r\n
+      17. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Items.txt.meta\r\n\r\n
+      18. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Keywords.txt\r\n\r\n
+      19. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Keywords.txt.meta\r\n\r\n
+      20. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Maps.txt\r\n\r\n
+      21. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Maps.txt.meta\r\n\r\n
+      22. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Messages.txt\r\n\r\n
+      23. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Messages.txt.meta\r\n\r\n
+      24. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Quests.txt\r\n\r\n
+      25. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Quests.txt.meta\r\n\r\n
+      26. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Rules.txt\r\n\r\n
+      27. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Rules.txt.meta\r\n\r\n
+      28. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Settings.txt\r\n\r\n
+      29. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Settings.txt.meta\r\n\r\n
+      30. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Stats.txt\r\n\r\n
+      31. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Stats.txt.meta\r\n\r\n
+      32. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\TeExpansion.json\r\n\r\n
+      33. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\TeExpansion.json.meta\r\n\r\n
+      34. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Tooltips.txt\r\n\r\n
+      35. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\en\\Tooltips.txt.meta\r\n\r\n
+      36. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\es-ES\\CharacterBodies.txt\r\n\r\n
+      37. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\es-ES\\CharacterBodies.txt.meta\r\n\r\n
+      38. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\es-ES\\Items.txt\r\n\r\n
+      39. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\es-ES\\Items.txt.meta\r\n\r\n
+      40. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\es-ES\\Messages.txt\r\n\r\n
+      41. F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove\\language\\es-ES\\Messages.txt.meta"
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737853874279
+    message: '[ModBuildAnreol(1 - Copy)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fAnreol%2fModBuildAnreol.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737853182352
+    message: '[DevBuild](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fDevBuild.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737848775638
+    message: '[StageManifestFiles](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fStageManifestFiles.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737848386682
+    message: '[StageManifestFiles(0 - StageManifestFiles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fStageManifestFiles.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      staged ``` Assets/StreamingAssets/language/es-ES ``` in ``` C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/es-ES
+      ```'
+    context:
+    - "Copied Files\r\n\r\n 1. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/es-ES\\CharacterBodies.txt\r\n\r\n
+      2. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/es-ES\\CharacterBodies.txt.meta\r\n\r\n
+      3. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/es-ES\\Items.txt\r\n\r\n
+      4. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/es-ES\\Items.txt.meta\r\n\r\n
+      5. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/es-ES\\Messages.txt\r\n\r\n
+      6. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/es-ES\\Messages.txt.meta"
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737848007694
+    message: '[StageManifestFiles(0 - StageManifestFiles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fStageManifestFiles.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      staged ``` Assets/StreamingAssets/language/en ``` in ``` C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en
+      ```'
+    context:
+    - "Copied Files\r\n\r\n 1. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Achievements.txt\r\n\r\n
+      2. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Achievements.txt.meta\r\n\r\n
+      3. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Artifacts.txt\r\n\r\n
+      4. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Artifacts.txt.meta\r\n\r\n
+      5. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\CharacterBodies.txt\r\n\r\n
+      6. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\CharacterBodies.txt.meta\r\n\r\n
+      7. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Equipment.txt\r\n\r\n
+      8. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Equipment.txt.meta\r\n\r\n
+      9. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Interactors.txt\r\n\r\n
+      10. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Interactors.txt.meta\r\n\r\n
+      11. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Items.txt\r\n\r\n
+      12. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Items.txt.meta\r\n\r\n
+      13. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Keywords.txt\r\n\r\n
+      14. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Keywords.txt.meta\r\n\r\n
+      15. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Maps.txt\r\n\r\n
+      16. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Maps.txt.meta\r\n\r\n
+      17. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Messages.txt\r\n\r\n
+      18. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Messages.txt.meta\r\n\r\n
+      19. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Quests.txt\r\n\r\n
+      20. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Quests.txt.meta\r\n\r\n
+      21. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Rules.txt\r\n\r\n
+      22. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Rules.txt.meta\r\n\r\n
+      23. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Settings.txt\r\n\r\n
+      24. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Settings.txt.meta\r\n\r\n
+      25. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Stats.txt\r\n\r\n
+      26. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Stats.txt.meta\r\n\r\n
+      27. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\TeExpansion.json\r\n\r\n
+      28. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\TeExpansion.json.meta\r\n\r\n
+      29. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Tooltips.txt\r\n\r\n
+      30. C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/language/en\\Tooltips.txt.meta"
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737843979589
+    message: '[StageManifestFiles(0 - StageManifestFiles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fStageManifestFiles.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737843670420
+    message: '[StageManifestFiles(0 - StageManifestFiles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fStageManifestFiles.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737843371215
+    message: '[StageManifestFiles(0 - StageManifestFiles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fStageManifestFiles.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737843002212
+    message: '[DevBuild(3 - ExecutePipeline)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fDevBuild.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737841974956
+    message: '[BuildChunkCompressed](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737699414788
+    message: '[BuildChunkCompressed(2 - SwapShadersAndStageAssetBundles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Creating 1 AssetBundles'
+    context:
+    - 'assetTrove
+
+      [TreasureTroveContentPack](assetlink://Assets%2fContentPack%2fAssetTrove%2fTreasureTroveContentPack.asset)
+
+      
+
+      
+
+'
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737695162420
+    message: '[BuildChunkCompressed(2 - SwapShadersAndStageAssetBundles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737683277217
+    message: '[BuildChunkCompressed(1 - StageAssemblies)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      staging ``` ThunderKit/Libraries ``` in ``` C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins
+      ```
+
+'
+    context:
+    - "Assembly Files\r\nFrom: ThunderKit/Libraries\\TreasureTrove.dll.mdb\r\n  To:
+      C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/TreasureTrove.dll.mdb\r\n\r\nFrom:
+      ThunderKit/Libraries\\TreasureTrove.dll\r\n  To: C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins/TreasureTrove.dll\r\n\r\n"
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737681829305
+    message: '[BuildChunkCompressed(1 - StageAssemblies)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Build Completed: ``` ThunderKit/Libraries/TreasureTrove.dll ```'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 638012737681540082
+    message: '[BuildChunkCompressed(1 - StageAssemblies)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Assets\ContentPack\Modules\TTContent.cs(19,29): warning CS0414: The field ''TTContent.alreadyLoadedBaseGame''
+      is assigned but its value is never used'
+    context:
+    - Assets\ContentPack\Modules\TTContent.cs (19:29)
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737659863209
+    message: '[BuildChunkCompressed(1 - StageAssemblies)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Building : ThunderKit/Libraries/TreasureTrove.dll'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737654028780
+    message: '[BuildChunkCompressed(1 - StageAssemblies)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737654008834
+    message: '[BuildChunkCompressed(0 - StageAssetBundles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737653998866
+    message: '[BuildChunkCompressed(0 - StageAssetBundles)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fBuildChunkCompressed.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737653930197
+    message: '[DevBuild(2 - ExecutePipeline)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fDevBuild.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737652436485
+    message: '[DeleteSourceAndDest](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737652397444
+    message: '[DeleteSourceAndDest(2 - Delete)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)
+      Deleting F:/SteamLibrary/steamapps/common/Risk of Rain 2/BepInEx/plugins/TreasureTrove'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737651009518
+    message: '[DeleteSourceAndDest(2 - Delete)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737650999547
+    message: '[DeleteSourceAndDest(1 - Delete)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)
+      Deleting ThunderKit'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737650041837
+    message: '[DeleteSourceAndDest(1 - Delete)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737650031854
+    message: '[DeleteSourceAndDest(0 - Delete)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Deleting C:/Users/Anr/source/repos/TreasureTrove/Builds/Anreol-TreasureTrove/0.0.1/plugins'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737648134043
+    message: '[DeleteSourceAndDest(0 - Delete)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737648114101
+    message: '[DeleteSourceAndDest(0 - Delete)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737648114101
+    message: '[DeleteSourceAndDest(0 - Delete)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fModPipelines%2fDeleteSourceAndDest.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737648094146
+    message: '[DevBuild(0 - ExecutePipeline)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fDevBuild.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737648074195
+    message: '[DevBuild(0 - ExecutePipeline)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fDevBuild.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737648064230
+    message: '[DevBuild(0 - ExecutePipeline)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fDevBuild.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737648044292
+    message: '[ModBuildAnreol(0 - ExecutePipeline)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fAnreol%2fModBuildAnreol.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737648024607
+    message: '[ModBuildAnreol(0 - ExecutePipeline)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fAnreol%2fModBuildAnreol.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638012737646827633
+    message: '[ModBuildAnreol(0 - ExecutePipeline)](assetlink://Assets%2fThunderKit-Editor-Stuff%2fPaths%26Pipelines%2fAnreol%2fModBuildAnreol.asset)[TreasureTroveManifest](assetlink://Assets%2fContentPack%2fTreasureTroveManifest.asset)
+      Execute Pipeline'
+    context: []
