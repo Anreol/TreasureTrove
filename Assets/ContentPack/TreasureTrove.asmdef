@@ -1,0 +1,30 @@
+{
+    "name": "TreasureTrove",
+    "references": [
+        "GUID:a44f47cf3ada4435dbc516bad0bc86fe",
+        "GUID:06384a3d82f4cff4e9bbb984274bafe8"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "RoR2.dll",
+        "BepInEx.dll",
+        "HGUnityUtils.dll",
+        "HGCSharpUtils.dll",
+        "UnityEngine.UI.dll",
+        "Mono.Cecil.dll",
+        "MonoMod.Utils.dll",
+        "MMHOOK_RoR2.dll",
+        "Unity.Addressables.dll",
+        "Unity.ResourceManager.dll",
+        "Unity.TextMeshPro.dll",
+        "KinematicCharacterController.dll",
+        "Rewired_Core.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
