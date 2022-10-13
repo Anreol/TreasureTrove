@@ -41,7 +41,7 @@ namespace TreasureTrove
         {
             if (body && Util.HasEffectiveAuthority(body.networkIdentity))
             {
-                var buffManager = body.gameObject.AddComponent<TurboBuffManager>();
+                var buffManager = body.gameObject.AddComponent<TroveBuffManager>();
                 buffManager.CheckForBuffs();
             }
         }
@@ -51,7 +51,7 @@ namespace TreasureTrove
             orig(self);
             if (Util.HasEffectiveAuthority(self.networkIdentity)) //This only should be running in the client... but still
             {
-                self.GetComponent<TurboBuffManager>()?.CheckForBuffs();
+                self.GetComponent<TroveBuffManager>()?.CheckForBuffs();
             }
         }
     }

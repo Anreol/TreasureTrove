@@ -25,7 +25,7 @@ namespace TreasureTrove
         {
             if (sceneCamera.cameraRigController)
             {
-                foreach (TurboVFXManager vFXManager in InstanceTracker.GetInstancesList<TurboVFXManager>())
+                foreach (TroveVFXManager vFXManager in InstanceTracker.GetInstancesList<TroveVFXManager>())
                 {
                     vFXManager.UpdateForCamera(sceneCamera.cameraRigController);
                 }
@@ -57,7 +57,7 @@ namespace TreasureTrove
         {
             if (body && body.modelLocator)
             {
-                var vfxManager = body.gameObject.AddComponent<TurboVFXManager>();
+                var vfxManager = body.gameObject.AddComponent<TroveVFXManager>();
             }
         }
     }

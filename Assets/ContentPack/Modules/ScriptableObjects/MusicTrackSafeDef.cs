@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace TreasureTrove.ScriptableObjects
 {
-    [CreateAssetMenu(menuName = "TurboEdition/MusicTrackSafeDef")]
+    [CreateAssetMenu(menuName = "TreasureTrove/MusicTrackSafeDef")]
     public class MusicTrackSafeDef : MusicTrackDef
     {
         public override void Preload()
@@ -17,9 +17,9 @@ namespace TreasureTrove.ScriptableObjects
             }
 
             bank.Load(false, false);
-            if (TurboUnityPlugin.playMusicSystemID == 0U)
+            if (TreasureTroveUnityPlugin.playMusicSystemID == 0U)
             {
-                TurboUnityPlugin.playMusicSystemID = AkSoundEngine.PostEvent("Play_Music_System_TurboEditon", TurboUnityPlugin.instance.gameObject); //MUST be done, else the music won't play
+                TreasureTroveUnityPlugin.playMusicSystemID = AkSoundEngine.PostEvent("Play_Music_System_TreasureTrove", TreasureTroveUnityPlugin.instance.gameObject); //MUST be done, else the music won't play
             }
             //TELog.LogI($"Got a PostEvent id of {id} after trying to play Play_Music_System_TurboEditon {this.cachedName}", true);
         }

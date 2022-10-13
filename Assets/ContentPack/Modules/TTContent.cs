@@ -96,12 +96,6 @@ namespace TreasureTrove
 
         public IEnumerator FinalizeAsync(FinalizeAsyncArgs args)
         {
-            if (Directory.Exists(Assets.languageRoot))
-            {
-                Language.collectLanguageRootFolders += (List<string> stringList) => stringList.Add(Assets.languageRoot);
-                Misc.MiscLanguage.AddDeathMessages();
-            }
-            CostAndStatExtras.Init();
 
             //Extra stuff for hopoo
             RoR2Application.isModded = true;
