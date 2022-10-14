@@ -124,15 +124,18 @@ namespace TreasureTrove.Components
                 int newAuthorityMask = 0;
                 if (this.currentlyOverridingPrimarySkill)
                 {
+                    //000011?
                     newAuthorityMask |= System.Array.IndexOf(bombPowderSkillDefs, currentlyOverridingPrimarySkill);
                 }
                 if (this.currentlyOverridingSecondarySkill)
                 {
-                    newAuthorityMask |= System.Array.IndexOf(arcanaSkillDefs, currentlyOverridingSecondarySkill) << 4;
+                    //002200??
+                    newAuthorityMask |= System.Array.IndexOf(arcanaSkillDefs, currentlyOverridingSecondarySkill) << 8;
                 }
                 if (this.currentlyOverridingUtilitySkill)
                 {
-                    newAuthorityMask |= System.Array.IndexOf(arcanaSkillDefs, currentlyOverridingUtilitySkill) << 8;
+                    //330000??
+                    newAuthorityMask |= System.Array.IndexOf(arcanaSkillDefs, currentlyOverridingUtilitySkill) << 16;
                 }
                 if (newAuthorityMask != this.authoritySelectedSkillsMask)
                 {
@@ -152,9 +155,12 @@ namespace TreasureTrove.Components
             {
                 newServerMask = this.netEnabledSkillsMask;
             }
-            int bombIndex = newServerMask >> 8;
-            int arcana1Index = newServerMask >> 4;
-            int arcana2Index = newServerMask;
+            //replaces everything past the first two numbers?
+            int bombIndex = newServerMask | 0x8f;
+            //Starts from the third number, then cuts off at the fourth number?
+            int arcana1Index = newServerMask >> 8 | 16;
+            //takes the last eight
+            int arcana2Index = newServerMask >> 16;
             this.SetSkillOverride(ref this.currentlyOverridingPrimarySkill, bombPowderSkillDefs[bombIndex], bombPowderSkill);
             this.SetSkillOverride(ref this.currentlyOverridingSecondarySkill, arcanaSkillDefs[arcana1Index], arcanaSlot1Skill);
             this.SetSkillOverride(ref this.currentlyOverridingUtilitySkill, arcanaSkillDefs[arcana2Index], arcanaSlot2Skill);
