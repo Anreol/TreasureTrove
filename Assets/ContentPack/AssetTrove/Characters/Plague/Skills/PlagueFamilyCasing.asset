@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1627637702, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: PlagueFamilyCasing
+  m_EditorClassIdentifier: 
+  variants:
+  - skillDef: {fileID: 11400000, guid: 710041d2fa91cd24aa84601d285fb71a, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: 0ac375afc773f3a4c8c7be5340ce56a5, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: 3af5b470324892a499dfe8e4d84fc145, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: 020b9c9061f17de42a841281e3464c70, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: c067bb941f9d7ae4ebe1bd9453a95e86, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: dda3648d168dbfa43af20c3907d6fcc1, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  defaultVariantIndex: 0

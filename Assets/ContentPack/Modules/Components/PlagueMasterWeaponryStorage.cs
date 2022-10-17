@@ -5,12 +5,6 @@ namespace TreasureTrove.Components
 {
     public class PlagueMasterWeaponryStorage : MonoBehaviour
     {
-        private SkillDef chosenBombPowderSkill;
-        private SkillDef chosenBombCasingSkill;
-        private SkillDef chosenBombFuseSkill;
-        private SkillDef chosenArcanaSlot1Skill;
-        private SkillDef chosenArcanaSlot2Skill;
-
         public SkillDef ChosenBombPowderSkill
         {
             get => chosenBombPowderSkill;
@@ -69,6 +63,12 @@ namespace TreasureTrove.Components
                 }
             }
         }
+
+        private SkillDef chosenBombPowderSkill;
+        private SkillDef chosenBombCasingSkill;
+        private SkillDef chosenBombFuseSkill;
+        private SkillDef chosenArcanaSlot1Skill;
+        private SkillDef chosenArcanaSlot2Skill;
 
         public void SaveConfiguration(SkillDef newBombPowder = null, SkillDef newBombCasing = null, SkillDef newBombFuse = null, SkillDef newArcanaOffense = null, SkillDef newArcanaDefense = null)
         {

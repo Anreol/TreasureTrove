@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.passivepicasso.thunderkit": "https://github.com/PassivePicasso/ThunderKit.git",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.postprocessing": "2.3.0",
     "com.unity.test-framework": "1.1.24",
     "com.unity.timeline": "1.2.18",

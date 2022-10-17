@@ -1,0 +1,1784 @@
+fileFormatVersion: 2
+guid: c8b188b774faed747af532e4b59d9982
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3775828681205908208
+    second: plagueRef
+  - first:
+      213: -3537719031215685386
+    second: plagueWalk_01
+  - first:
+      213: -3985015879926681379
+    second: plagueWalk_02
+  - first:
+      213: 7766751751092441938
+    second: plagueWalk_03
+  - first:
+      213: -6327352138398133879
+    second: plagueWalk_04
+  - first:
+      213: 5036827515662528407
+    second: plagueWalk_05
+  - first:
+      213: -6745232356151996371
+    second: plagueWalk_06
+  - first:
+      213: -350832997932008863
+    second: plagueAscend
+  - first:
+      213: 7986766185367986376
+    second: plagueDescend
+  - first:
+      213: -5000384506413108126
+    second: plagueDoubleJump_01
+  - first:
+      213: 199807877619289347
+    second: plagueDoubleJump_02
+  - first:
+      213: 9130196518544761855
+    second: plagueClimb_01
+  - first:
+      213: 7540265097201982788
+    second: plagueClimb_02
+  - first:
+      213: 6473526555985665944
+    second: plagueClimbReach
+  - first:
+      213: -2138038484222347586
+    second: plagueThrowG_01
+  - first:
+      213: -4632862977125780482
+    second: plagueThrowG_02
+  - first:
+      213: 5096760240714699530
+    second: plagueThrowG_03
+  - first:
+      213: -9183612104180225361
+    second: plagueThrowG_04
+  - first:
+      213: 1822413905603013906
+    second: plagueThrowG_05
+  - first:
+      213: -7988517459689543365
+    second: plagueThrowA_01
+  - first:
+      213: -1176848325453406190
+    second: plagueThrowA_02
+  - first:
+      213: 5763216712976640476
+    second: plagueThrowA_03
+  - first:
+      213: 665052072600432062
+    second: plagueThrowA_04
+  - first:
+      213: -9052896573945113451
+    second: plagueThrowA_05
+  - first:
+      213: -6913581223305345136
+    second: plaguerRunChangeDir
+  - first:
+      213: -2972949995169437663
+    second: plagueCrouch
+  - first:
+      213: -7633748436640759059
+    second: plagueDamage_01
+  - first:
+      213: 4239119572113039947
+    second: plagueDamage_02
+  - first:
+      213: 7253276331185291397
+    second: plagueCelebrate_01
+  - first:
+      213: 8129575661601880589
+    second: plagueCelebrate_02
+  - first:
+      213: 2738680959065366675
+    second: plagueCelebrate_03
+  - first:
+      213: 3544208046838113193
+    second: plagueCelebrate_04
+  - first:
+      213: -5550683327832763199
+    second: plagueCelebrate_05
+  - first:
+      213: -5000853526390175223
+    second: plagueCelebrate_06
+  - first:
+      213: 3947683003216129590
+    second: plagueCelebrate_07
+  - first:
+      213: 8756901460707228471
+    second: plagueCelebrate_08
+  - first:
+      213: -6544261443780770832
+    second: plagueCelebrate_09
+  - first:
+      213: 6892826698812378361
+    second: plagueCelebrate_10
+  - first:
+      213: -19074128453712470
+    second: plagueCelebrate_11
+  - first:
+      213: -4643651890656566560
+    second: plagueCelebrate_12
+  - first:
+      213: 8444812722714817362
+    second: plagueTaunt_01
+  - first:
+      213: 7409011929139040894
+    second: plagueTaunt_02
+  - first:
+      213: -2323346415223646021
+    second: plagueStun
+  - first:
+      213: 3526874200402168174
+    second: plagueJumpExplosive
+  - first:
+      213: -1221187933190935631
+    second: plagueGet
+  - first:
+      213: 2927866262855531841
+    second: plagueCastD_01
+  - first:
+      213: -507256301289162588
+    second: plagueCastD_02
+  - first:
+      213: 2539479265996223007
+    second: plagueCastD_03
+  - first:
+      213: 7992130162766520955
+    second: plagueCastD_04
+  - first:
+      213: 4623478157892726354
+    second: plagueCastD_05
+  - first:
+      213: -5411363816016957680
+    second: plagueCastD_06
+  - first:
+      213: 267804825517318932
+    second: plagueCastD_07
+  - first:
+      213: -3032832721115287164
+    second: plagueCastD_08
+  - first:
+      213: -2193862684511772435
+    second: plagueCastR_01
+  - first:
+      213: -6104805751358160301
+    second: plagueCastR_02
+  - first:
+      213: -3982473807512609733
+    second: plagueCastR_03
+  - first:
+      213: -1217824469272761183
+    second: plagueCastR_04
+  - first:
+      213: 2259314761962649047
+    second: plagueCastR_05
+  - first:
+      213: -3919290648172540173
+    second: plagueCastR_06
+  - first:
+      213: 8594512515798650068
+    second: plagueCastR_07
+  - first:
+      213: 2858795434309292884
+    second: plagueCastR_08
+  - first:
+      213: 4209979301951287663
+    second: plagueCastR_09
+  - first:
+      213: -8052121418618999914
+    second: plagueEntryExplosion_01
+  - first:
+      213: 7823226834833392355
+    second: plagueEntryExplosion_02
+  - first:
+      213: 4293006197940286040
+    second: plagueEntryExplosion_03
+  - first:
+      213: -2755602481879820517
+    second: plagueEntryExplosion_04
+  - first:
+      213: -2322622977511783008
+    second: plagueEntryExplosion_05
+  - first:
+      213: 5973522197462346940
+    second: plagueEntryExplosion_06
+  - first:
+      213: 362499036423674750
+    second: plagueEntryExplosion_07
+  - first:
+      213: -3013990307293283518
+    second: plagueEntryExplosion_08
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plagueRef
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2518
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d7df3d1df899bc0800000000000000
+      internalID: -3775828681205908208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueWalk_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2481
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f00045e84f77eec0800000000000000
+      internalID: -3537719031215685386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueWalk_02
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2481
+        width: 36
+        height: 35
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0fda4bb2162b8c0800000000000000
+      internalID: -3985015879926681379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueWalk_03
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2481
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253128e419b09cb60800000000000000
+      internalID: 7766751751092441938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueWalk_04
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2481
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98198fdf0cab038a0800000000000000
+      internalID: -6327352138398133879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueWalk_05
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2481
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f6af170f766e540800000000000000
+      internalID: 5036827515662528407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueWalk_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2481
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20d61ce8ee1462a0800000000000000
+      internalID: -6745232356151996371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueAscend
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2443
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16af6c64f37912bf0800000000000000
+      internalID: -350832997932008863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueDescend
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2402
+        width: 47
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0e5f6a781b6de60800000000000000
+      internalID: 7986766185367986376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueDoubleJump_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2366
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26431ead8c01b9ab0800000000000000
+      internalID: -5000384506413108126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueDoubleJump_02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2330
+        width: 35
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d82d0c43cd5c200800000000000000
+      internalID: 199807877619289347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueClimb_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2256
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff36e591c59f4be70800000000000000
+      internalID: 9130196518544761855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueClimb_02
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2256
+        width: 31
+        height: 38
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d1007e72764a860800000000000000
+      internalID: 7540265097201982788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueClimbReach
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2227
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f559dba1696d950800000000000000
+      internalID: 6473526555985665944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowG_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2188
+        width: 45
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6ffcf83592452e0800000000000000
+      internalID: -2138038484222347586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowG_02
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2188
+        width: 45
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3fb531ba3c4bfb0800000000000000
+      internalID: -4632862977125780482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowG_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2188
+        width: 45
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0352256f645bb640800000000000000
+      internalID: 5096760240714699530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowG_04
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2188
+        width: 45
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa2c57b2714d8080800000000000000
+      internalID: -9183612104180225361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowG_05
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2188
+        width: 45
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d2335aac38a4910800000000000000
+      internalID: 1822413905603013906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowA_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2147
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e23502b5132190800000000000000
+      internalID: -7988517459689543365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowA_02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2147
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21026d6eeaefaafe0800000000000000
+      internalID: -1176848325453406190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowA_03
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2147
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9219cc01f0bff40800000000000000
+      internalID: 5763216712976640476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowA_04
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2147
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd6c70265dba3900800000000000000
+      internalID: 665052072600432062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueThrowA_05
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2147
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59496a1c786ad5280800000000000000
+      internalID: -9052896573945113451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plaguerRunChangeDir
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2112
+        width: 32
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0970313d1860e00a0800000000000000
+      internalID: -6913581223305345136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCrouch
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2079
+        width: 34
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1282de21bb5fdb6d0800000000000000
+      internalID: -2972949995169437663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueDamage_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2043
+        width: 43
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de285510e3a7f0690800000000000000
+      internalID: -7633748436640759059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueDamage_02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1172
+        width: 43
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4224308ac064da30800000000000000
+      internalID: 4239119572113039947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5804c0ac460d8a460800000000000000
+      internalID: 7253276331185291397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_02
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0af07cedfd02d070800000000000000
+      internalID: 8129575661601880589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_03
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390a73672dfb10620800000000000000
+      internalID: 2738680959065366675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_04
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3edd9c07e8f2130800000000000000
+      internalID: 3544208046838113193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_05
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c458df0ce208f2b0800000000000000
+      internalID: -5550683327832763199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_06
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a01c1a636699ab0800000000000000
+      internalID: -5000853526390175223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_07
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e6b8496ccf8c630800000000000000
+      internalID: 3947683003216129590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_08
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bbd828b73c68970800000000000000
+      internalID: 8756901460707228471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_09
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3892ec3ec1e25a0800000000000000
+      internalID: -6544261443780770832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_10
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc4a01ec5d38af50800000000000000
+      internalID: 6892826698812378361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5cd156e2c3cbff0800000000000000
+      internalID: -19074128453712470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCelebrate_12
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1997
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e228d4653f6e8fb0800000000000000
+      internalID: -4643651890656566560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueTaunt_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1828
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253bd14cd60023570800000000000000
+      internalID: 8444812722714817362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueTaunt_02
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1828
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72d6fc481912d660800000000000000
+      internalID: 7409011929139040894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueStun
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1800
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8da66beb0d1cfd0800000000000000
+      internalID: -2323346415223646021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueJumpExplosive
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1762
+        width: 41
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69067a2669f1f030800000000000000
+      internalID: 3526874200402168174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueGet
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1695
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb292e7b087d0fe0800000000000000
+      internalID: -1221187933190935631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastD_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1607
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dba538aded1a820800000000000000
+      internalID: 2927866262855531841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastD_02
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1607
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8b49fd41dd5f8f0800000000000000
+      internalID: -507256301289162588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastD_03
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1607
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12bc2c00fa0e3320800000000000000
+      internalID: 2539479265996223007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastD_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1607
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b722266f900c9ee60800000000000000
+      internalID: 7992130162766520955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastD_05
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1607
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e29fb63e4e92040800000000000000
+      internalID: 4623478157892726354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastD_06
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1607
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f28eba749f6e4b0800000000000000
+      internalID: -5411363816016957680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastD_07
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1607
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4136816e11f67b300800000000000000
+      internalID: 267804825517318932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastD_08
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1607
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481fdb275b639e5d0800000000000000
+      internalID: -3032832721115287164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0e0b31385dd81e0800000000000000
+      internalID: -2193862684511772435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_02
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3520987838f574ba0800000000000000
+      internalID: -6104805751358160301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_03
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cd9ef0c296bb8c0800000000000000
+      internalID: -3982473807512609733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_04
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ace736f81b691fe0800000000000000
+      internalID: -1217824469272761183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_05
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5749e3ec2ba5f10800000000000000
+      internalID: 2259314761962649047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_06
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe4a28bbe1eb99c0800000000000000
+      internalID: -3919290648172540173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_07
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcc3d1f897d54770800000000000000
+      internalID: 8594512515798650068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_08
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453938b0d4b7ca720800000000000000
+      internalID: 2858795434309292884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueCastR_09
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1568
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61bd84aed9dc6a30800000000000000
+      internalID: 4209979301951287663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueEntryExplosion_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1944
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b66e25b3e114090800000000000000
+      internalID: -8052121418618999914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueEntryExplosion_02
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1944
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e24c876b5fa19c60800000000000000
+      internalID: 7823226834833392355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueEntryExplosion_03
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1944
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852f7c64462d39b30800000000000000
+      internalID: 4293006197940286040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueEntryExplosion_04
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1944
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b175e5d742222c9d0800000000000000
+      internalID: -2755602481879820517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueEntryExplosion_05
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1944
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5004e25b264cfd0800000000000000
+      internalID: -2322622977511783008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueEntryExplosion_06
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1944
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc67ad1ac636e250800000000000000
+      internalID: 5973522197462346940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueEntryExplosion_07
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1944
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b5479f3fad70500800000000000000
+      internalID: 362499036423674750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plagueEntryExplosion_08
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1944
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b3059c8c72c26d0800000000000000
+      internalID: -3013990307293283518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 263f7c066f07db245a037e06c8ebf9c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

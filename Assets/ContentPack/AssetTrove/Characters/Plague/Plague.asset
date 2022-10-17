@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: -1881990681, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: Plague
   m_EditorClassIdentifier: 
-  bodyPrefab: {fileID: 0}
-  displayPrefab: {fileID: 0}
+  bodyPrefab: {fileID: 122710092156264405, guid: 5b01c1f39c09b34449122e58cef3ad86,
+    type: 3}
+  displayPrefab: {fileID: 3580700415903025261, guid: a1bdf65a43f5e404f8b16f7df901932a,
+    type: 3}
   unlockableName: 
   unlockableDef: {fileID: 0}
   displayNameToken: PLAGUE_BODY_NAME

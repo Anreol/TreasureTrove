@@ -12,20 +12,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b81f21ac9f7a6418053eaf8960edb2, type: 3}
   m_Name: TreasureTroveContentPack
   m_EditorClassIdentifier: 
-  bodyPrefabs: []
+  bodyPrefabs:
+  - {fileID: 122710092156264405, guid: 5b01c1f39c09b34449122e58cef3ad86, type: 3}
   masterPrefabs: []
   projectilePrefabs: []
   gameModePrefabs: []
   networkedObjectPrefabs: []
-  skillDefs: []
-  skillFamilies: []
+  skillDefs:
+  - {fileID: 11400000, guid: 710041d2fa91cd24aa84601d285fb71a, type: 2}
+  - {fileID: 11400000, guid: c067bb941f9d7ae4ebe1bd9453a95e86, type: 2}
+  - {fileID: 11400000, guid: 3af5b470324892a499dfe8e4d84fc145, type: 2}
+  - {fileID: 11400000, guid: 0ac375afc773f3a4c8c7be5340ce56a5, type: 2}
+  - {fileID: 11400000, guid: 020b9c9061f17de42a841281e3464c70, type: 2}
+  - {fileID: 11400000, guid: dda3648d168dbfa43af20c3907d6fcc1, type: 2}
+  - {fileID: 11400000, guid: 7c4e57a40d8601645929523143243f80, type: 2}
+  - {fileID: 11400000, guid: b20bb5add73250b47a06092bd371938e, type: 2}
+  - {fileID: 11400000, guid: 1b9269281f81cf14191695efa207e3bb, type: 2}
+  - {fileID: 11400000, guid: d7c04dae124fa394ab0c0eeeeb441fb1, type: 2}
+  - {fileID: 11400000, guid: ace50d09f8fa0a144bd9c55576ed2297, type: 2}
+  - {fileID: 11400000, guid: 8655b45121cc1e74aa85d3b16e27cad4, type: 2}
+  - {fileID: 11400000, guid: e91c1b25ac6eb3841af1d4e912d95161, type: 2}
+  - {fileID: 11400000, guid: c89bb376b3cface4ab3e8316d371e741, type: 2}
+  - {fileID: 11400000, guid: e5387bf4f647a0340811eb73675c4f57, type: 2}
+  - {fileID: 11400000, guid: bbe736f871eee9540b5390b0cee412e5, type: 2}
+  - {fileID: 11400000, guid: 7f675e47a687e6f42b8268c6a9ba8d2a, type: 2}
+  - {fileID: 11400000, guid: 8ecbaa26725adcd45afbd6a00e4d06ca, type: 2}
+  skillFamilies:
+  - {fileID: 11400000, guid: f8f49bb470b427b46aed8d8726c1f764, type: 2}
+  - {fileID: 11400000, guid: 83d6dcd3ffac3e04c8bc6e1cea35cd7a, type: 2}
+  - {fileID: 11400000, guid: 401df08c05ae89f48aafe87e85b7892d, type: 2}
   sceneDefs: []
   itemDefs: []
   equipmentDefs: []
   buffDefs: []
   eliteDefs: []
   unlockableDefs: []
-  survivorDefs: []
+  survivorDefs:
+  - {fileID: 11400000, guid: 0595096bbfc62f142a64c65cc855f356, type: 2}
   artifactDefs: []
   effectDefs: []
   surfaceDefs: []

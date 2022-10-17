@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1627637702, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: PlagueFamilyPowder
+  m_EditorClassIdentifier: 
+  variants:
+  - skillDef: {fileID: 11400000, guid: e91c1b25ac6eb3841af1d4e912d95161, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: 8ecbaa26725adcd45afbd6a00e4d06ca, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: c89bb376b3cface4ab3e8316d371e741, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: bbe736f871eee9540b5390b0cee412e5, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: e5387bf4f647a0340811eb73675c4f57, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  - skillDef: {fileID: 11400000, guid: 7f675e47a687e6f42b8268c6a9ba8d2a, type: 2}
+    unlockableName: 
+    unlockableDef: {fileID: 0}
+  defaultVariantIndex: 0

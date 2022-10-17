@@ -16,11 +16,11 @@ namespace TreasureTrove.Components
         public GenericSkill arcanaSlot1Skill;
         public GenericSkill arcanaSlot2Skill;
 
-        [Header("Skill Defs")]
-        public SkillDef[] bombPowderSkillDefs;
-        public SkillDef[] bombCasingSkillDefs;
-        public SkillDef[] bombFuseSkillDefs;
-        public SkillDef[] arcanaSkillDefs;
+        [Header("Skill Families")]
+        public SkillFamily bombPowderSkillDefs;
+        public SkillFamily bombCasingSkillDefs;
+        public SkillFamily bombFuseSkillDefs;
+        public SkillFamily arcanaSkillDefs;
 
         [SyncVar]
         private int netEnabledSkillsMask;
@@ -125,17 +125,17 @@ namespace TreasureTrove.Components
                 if (this.currentlyOverridingPrimarySkill)
                 {
                     //000011?
-                    newAuthorityMask |= System.Array.IndexOf(bombPowderSkillDefs, currentlyOverridingPrimarySkill);
+                    newAuthorityMask |= bombPowderSkillDefs.GetVariantIndex(currentlyOverridingPrimarySkill.skillName);
                 }
                 if (this.currentlyOverridingSecondarySkill)
                 {
                     //002200??
-                    newAuthorityMask |= System.Array.IndexOf(arcanaSkillDefs, currentlyOverridingSecondarySkill) << 8;
+                    newAuthorityMask |= arcanaSkillDefs.GetVariantIndex(currentlyOverridingSecondarySkill.skillName) << 8;
                 }
                 if (this.currentlyOverridingUtilitySkill)
                 {
                     //330000??
-                    newAuthorityMask |= System.Array.IndexOf(arcanaSkillDefs, currentlyOverridingUtilitySkill) << 16;
+                    newAuthorityMask |= arcanaSkillDefs.GetVariantIndex(currentlyOverridingUtilitySkill.skillName) << 16;
                 }
                 if (newAuthorityMask != this.authoritySelectedSkillsMask)
                 {
@@ -156,14 +156,15 @@ namespace TreasureTrove.Components
                 newServerMask = this.netEnabledSkillsMask;
             }
             //replaces everything past the first two numbers?
-            int bombIndex = newServerMask | 0x8f;
+            int bombIndex = newServerMask & 0xff;
             //Starts from the third number, then cuts off at the fourth number?
-            int arcana1Index = newServerMask >> 8 | 16;
+            int arcana1Index = newServerMask >> 8 & 0xff;
             //takes the last eight
             int arcana2Index = newServerMask >> 16;
-            this.SetSkillOverride(ref this.currentlyOverridingPrimarySkill, bombPowderSkillDefs[bombIndex], bombPowderSkill);
-            this.SetSkillOverride(ref this.currentlyOverridingSecondarySkill, arcanaSkillDefs[arcana1Index], arcanaSlot1Skill);
-            this.SetSkillOverride(ref this.currentlyOverridingUtilitySkill, arcanaSkillDefs[arcana2Index], arcanaSlot2Skill);
+
+            this.SetSkillOverride(ref this.currentlyOverridingPrimarySkill, bombPowderSkillDefs.variants[bombIndex].skillDef, bombPowderSkill);
+            this.SetSkillOverride(ref this.currentlyOverridingSecondarySkill, arcanaSkillDefs.variants[arcana1Index].skillDef, arcanaSlot1Skill);
+            this.SetSkillOverride(ref this.currentlyOverridingUtilitySkill, arcanaSkillDefs.variants[arcana2Index].skillDef, arcanaSlot2Skill);
         }
 
         [Command]
