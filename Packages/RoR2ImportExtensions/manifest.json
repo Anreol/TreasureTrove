@@ -1,8 +1,0 @@
-{
-    "name": "RoR2ImportExtensions",
-    "author": "RiskofThunder",
-    "version_number": "1.2.0",
-    "website_url": "",
-    "description": "Import extensions for ThunderKit to stabilize and complete the RoR2 import process",
-    "dependencies": []
-}
